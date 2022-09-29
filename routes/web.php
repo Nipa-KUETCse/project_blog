@@ -21,6 +21,10 @@ Route::get('post/', function () {
     return view('frontend.post.post');
 })->name('my.posts');
 
+Route::get('contact/', function () {
+    return view('frontend.contact.contact');
+})->name('contact');
+
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
