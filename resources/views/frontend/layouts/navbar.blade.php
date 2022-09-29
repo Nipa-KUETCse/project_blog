@@ -3,7 +3,7 @@
     <nav class="navbar">
         <!-- <a href="#banner">banner</a> -->
         <a href="{{ route('my.posts') }}">my posts</a>
-        <!-- <a href="#contact">contact me</a> -->
+        <a href="#contact">contact me</a>
     </nav>
     <div class="icons">
         <i class="fas fa-bars" id="menu-bars"></i>
