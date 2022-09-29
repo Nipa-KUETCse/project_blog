@@ -1,20 +1,15 @@
 @extends('frontend.master_frontend')
 
-@section('css')
-
-@endsection
-
 @section('content')
-
 <!-- banner section starts  -->
 
 <section class="banner" id="banner">
 
-    <div class="content">
+    <!-- <div class="content">
         <h3>explore the nature</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, laboriosam?</p>
         <a href="#" class="btn">my blogs</a>
-    </div>
+    </div> -->
 
 </section>
 
@@ -206,6 +201,26 @@
 
 @endsection
 
-@section('js')
 
-@endsection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- custom js file link  -->
+<script src="{{ asset('frontend/assets/js/script.js') }}"></script>
+    
+</body>
+</html>
