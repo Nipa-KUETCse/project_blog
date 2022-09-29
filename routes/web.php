@@ -14,12 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('frontend.index');
-});
+    return view('frontend.index.index');
+})->name('home');
 
 Route::get('post/', function () {
-    return view('frontend.post');
-});
+    return view('frontend.post.post');
+})->name('my.posts');
 
 Route::middleware([
     'auth:sanctum',
